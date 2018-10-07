@@ -3,10 +3,7 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-import {
-    login,
-} from 'page/'
-
+import {login,} from 'page/'
 
 const routes = [
 	{
@@ -15,10 +12,8 @@ const routes = [
 		hidden   : true,
 		component: login
 	}
-	
+
 ]
-
-
 
 export default new Router({
 	routes,

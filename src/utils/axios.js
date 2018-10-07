@@ -5,10 +5,7 @@ import VueAxios from 'vue-axios';
 Vue.use(VueAxios, axios);
 
 // 导入封装的回调函数
-import {
-	cbs,
-	gbs
-} from 'config/';
+import {cbs,gbs} from 'config/';
 
 
 // 动态设置本地和线上接口域名
